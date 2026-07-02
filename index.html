@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma de Control Estratégico - VoltEcuador</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<header>
+
+<h1>Plataforma de Control Estratégico</h1>
+
+<p>VoltEcuador S.A. | Horizonte Estratégico 2024</p>
+
+</header>
+
+<nav>
+
+<button onclick="mostrar('inicio')">Inicio</button>
+
+<button onclick="mostrar('pestel')">PESTEL</button>
+
+<button onclick="mostrar('foda')">FODA</button>
+
+<button onclick="mostrar('objetivos')">Objetivos</button>
+
+<button onclick="mostrar('poa')">POA</button>
+
+<button onclick="mostrar('dashboard')">Dashboard</button>
+
+</nav>
+
+<main>
+
+<section id="inicio" class="pagina">
+
+<h2>Bienvenido</h2>
+
+<p>
+
+Esta plataforma presenta el Plan Estratégico y el Plan Operativo Anual (POA) de VoltEcuador S.A.
+
+</p>
+
+</section>
+
+<section id="pestel" class="pagina">
+
+<h2>Análisis PESTEL</h2>
+
+<ul>
+
+<li>Político</li>
+
+<li>Económico</li>
+
+<li>Social</li>
+
+<li>Tecnológico</li>
+
+<li>Ambiental</li>
+
+<li>Legal</li>
+
+</ul>
+
+</section>
+
+<section id="foda" class="pagina">
+
+<h2>Matriz FODA</h2>
+
+<div class="cuadro">
+
+<div>
+
+<h3>Fortalezas</h3>
+
+<ul>
+
+<li>Modelo de negocio innovador</li>
+
+<li>Personal especializado</li>
+
+</ul>
+
+</div>
+
+<div>
+
+<h3>Debilidades</h3>
+
+<ul>
+
+<li>Baja notoriedad de marca</li>
+
+<li>Cobertura limitada</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="objetivos" class="pagina">
+
+<h2>Objetivos Estratégicos</h2>
+
+<ol>
+
+<li>Incrementar participación de mercado.</li>
+
+<li>Expandir infraestructura.</li>
+
+<li>Mejorar eficiencia operativa.</li>
+
+<li>Fortalecer satisfacción del cliente.</li>
+
+<li>Incrementar rentabilidad.</li>
+
+</ol>
+
+</section>
+
+<section id="poa" class="pagina">
+
+<h2>Plan Operativo Anual</h2>
+
+<table>
+
+<tr>
+
+<th>Actividad</th>
+
+<th>Meta</th>
+
+</tr>
+
+<tr>
+
+<td>Campañas digitales</td>
+
+<td>12</td>
+
+</tr>
+
+<tr>
+
+<td>Estaciones de carga</td>
+
+<td>5</td>
+
+</tr>
+
+<tr>
+
+<td>Convenios</td>
+
+<td>6</td>
+
+</tr>
+
+</table>
+
+</section>
+
+<section id="dashboard" class="pagina">
+
+<h2>Dashboard Ejecutivo</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Ventas</h3>
+
+<h1>20%</h1>
+
+</div>
+
+<div class="card">
+
+<h3>ROI</h3>
+
+<h1>15%</h1>
+
+</div>
+
+<div class="card">
+
+<h3>Clientes</h3>
+
+<h1>500</h1>
+
+</div>
+
+<div class="card">
+
+<h3>Satisfacción</h3>
+
+<h1>90%</h1>
+
+</div>
+
+</div>
+
+<canvas id="grafico"></canvas>
+
+</section>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
